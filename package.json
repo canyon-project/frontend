@@ -22,6 +22,8 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
+    "babel-plugin-canyon": "^2.0.20",
+    "babel-plugin-istanbul": "^7.0.0",
     "babel-plugin-react-compiler": "latest",
     "eslint-config-canyon": "^1.0.2",
     "globals": "^16.0.0",

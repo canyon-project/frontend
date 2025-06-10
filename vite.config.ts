@@ -12,11 +12,15 @@ export default defineConfig({
   plugins: [
     react({
       babel: {
-        plugins: [['babel-plugin-react-compiler', ReactCompilerConfig]],
+        plugins: [
+          ['babel-plugin-react-compiler', ReactCompilerConfig],
+          // 'istanbul',
+          // 'canyon',
+        ],
       },
     }),
     Pages({
-      dirs: 'src/routes',
+      exclude: ['**/views/**', '**/components/**'],
     }),
     tailwindcss(),
   ],
